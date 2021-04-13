@@ -31,5 +31,5 @@ function messageHandler (message) {
   console.log('> ', message)
 }
 
-const pubsub = publishSubscribePattern()
-const unsubscribe = pubsub.subscribe('message', messageHandler)
+const zendmast = publishSubscribePattern()
+const unsubscribe = zendmast.subscribe('message', messageHandler)
